@@ -14,7 +14,11 @@
     box-sizing: border-box;
     /* border: 1px black solid; */
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
 body{
  
     /* font-family: 'lato',sans-serif; */
@@ -42,7 +46,7 @@ body{
 .logo_container{
     display: flex;
     flex-direction: row;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 10rem;
    
 
 }
@@ -66,10 +70,12 @@ body{
 .app_name:hover{
     color:var(--secondary-clr);
 }
+
 .nav_links{
     display: flex;
     width:40%;
     justify-content: space-around;
+    margin-right: 4rem;
    
 }
 
@@ -97,12 +103,14 @@ body{
     height:0.15rem;
     background-color: black;
     margin:0.35rem;
+    
 }
 
 .body_container{
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
+    padding:0rem 10rem;
 }
 
 .hero_section{
@@ -114,7 +122,6 @@ body{
 
 .slogan{
     width:50%;
-    padding-left: 5rem;
     
 }
 .featureImg{
@@ -132,8 +139,7 @@ body{
 }
 
 .about{
-    margin: 3rem;
-    padding-left:6rem;
+    margin:3rem 0rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,6 +151,7 @@ body{
     gap:1.5rem;
     /* align-items: flex-start; */
     justify-content: center;
+    padding-left:1rem;
     
 }
 
@@ -182,7 +189,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap:1rem;
+    gap:1.25rem;
 }
 
 .category{
