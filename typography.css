@@ -2,9 +2,13 @@
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
 
 :root{
-    --primary-clr:white;
+    --primary-clr:#896686;
+    --primary-clr-2: #B1BFA9;
     --font-color:black;
-    --secondary-clr:#CEBAF0;
+    --background-clr:#FFF8F4;
+    --secondary-clr-1:#D88D70;
+    --secondary-clr-2:#8B4A51;
+
 }
 *{
     margin:0px;
@@ -17,7 +21,7 @@ body{
  
     /* font-family: 'lato',sans-serif; */
     font-family: 'Poppins', sans-serif;
-    background-color: var(--primary-clr);
+    background-color: var(--background-clr);
     
   
 }
@@ -109,14 +113,21 @@ body{
     width:40%;
 }
 
+.row{
+    display: flex;
+    gap:1rem;
+    margin-bottom: 1rem;
+    
+}
+
 .element_number{
     font-size: 6rem;
 }
 
 .page_title{
     margin-top: 2.5rem;
+    white-space: nowrap;
 }
-
 .heading{
     display: flex;
     gap:10rem;
