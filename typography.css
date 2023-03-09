@@ -101,17 +101,24 @@ body{
     margin:0.35rem;
 }
 
-.typography{
-    margin: 3rem;
+.body_container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin: 0rem 6rem;
+
 }
 
-.section_description{
-    width:40%;
+.typography{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
+
+
 
 .row{
     display: flex;
@@ -120,44 +127,68 @@ body{
     
 }
 
+.col{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.section_description{
+    width:100%;
+    padding-left: 3rem;
+    padding-top: 1.35rem;
+}
+
 .element_number{
     font-size: 6rem;
 }
 
 .page_title{
-    margin-top: 2.5rem;
+    padding-top: 2.5rem;
     white-space: nowrap;
 }
+
 .heading{
     display: flex;
-    gap:10rem;
+    gap:4rem;
     margin-bottom: 2rem;
+}
+.Glyphs{
+    height:350px;
+    object-fit: contain;
 }
 .font_section{
     display: flex;
-    flex-wrap: wrap;
-    margin: 3rem;
-    gap:3rem;
+    /* flex-wrap: wrap; */
+    margin-top: 3rem;
+    gap:1.5rem;
 }
 
 .font_type{
-    font-size:5rem;
-    letter-spacing: 2px;
+    font-size:1.25rem;
+    
 }
 
 .font_size{
-    margin-top: 2.5rem;
-    line-height: 3.5rem;
+    margin-top: 1rem;
+    line-height: 0.85rem;
  
 }
 
+
+ .fontsize_details{
+    font-size: 0.75rem;
+    line-height: 1rem;
+ }
 .body_text{
     display: flex;
-    gap:22rem;
+    gap:4rem;
 }
 
 .body_size{
     line-height: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 
