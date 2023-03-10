@@ -106,7 +106,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 0rem 6rem;
+    margin: 0rem 10rem;
 
 }
 
@@ -135,7 +135,7 @@ body{
 .section_description{
     width:100%;
     padding-left: 3rem;
-    padding-top: 1.35rem;
+    padding-top: 1.75rem;
 }
 
 .element_number{
@@ -160,7 +160,7 @@ body{
     display: flex;
     /* flex-wrap: wrap; */
     margin-top: 3rem;
-    gap:1.5rem;
+    gap:2.5rem;
 }
 
 .font_type{
@@ -191,7 +191,105 @@ body{
     align-items: flex-end;
 }
 
+.type_face{
+    margin-top: 2rem;
+}
+.sample_text_bx{
+    width:350px;
+    height:200px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+}
 
+.sample_text_bxt{
+    width:350px;
+    height:200px;
+    position: relative;
+    border:1px solid black;
+    border-radius: 5px;
+
+}
+.sample_text_p{
+    font-size: 2.6rem;
+    color:var(--primary-clr);
+    position:absolute;
+    top:1rem;
+    left:2.5rem;
+}
+
+.sample_text_g{
+    font-size: 2.6rem;
+    color:var(--primary-clr-2);
+    position:absolute;
+    top:4.5rem;
+    left:2.5rem;
+
+}
+
+.sample_text_w{
+    font-size: 2.6rem;
+    color:black;
+    position:absolute;
+    top:8rem;
+    left:2.5rem;
+}
+
+.sample_text_description{
+    margin: 1.5rem 0rem;
+    padding-left: 1.5rem;
+}
+
+.sample_para{
+    width:350px;
+    height:700px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+}
+
+.sample_parat{
+    width:350px;
+    height:700px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;;
+
+}
+
+
+.para1{
+    position: absolute;
+    font-size: 1rem;
+    top:3rem;
+    left:2rem;
+    width:298px;
+    color:var(--primary-clr);
+}
+
+.para2{
+    position: absolute;
+    font-size: 1rem;
+    top:16rem;
+    left:2rem;
+    width:298px;
+    color:var(--primary-clr-2);
+}
+
+.para3{
+    position: absolute;
+    font-size: 1rem;
+    top:30rem;
+    left:2rem;
+    width:298px;
+}
+
+.red_cross{
+    position: relative;
+    top:19rem;
+    left:9rem;
+    
+}
 
 .footer{
     margin-top: 2rem;
