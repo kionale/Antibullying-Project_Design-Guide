@@ -163,7 +163,7 @@ body {
 
 .subHeading {
     width: 100%;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 
 .columnTwo {
@@ -208,6 +208,7 @@ body {
     right: 0.5rem;
     object-fit: contain;
 }
+
 
 
 .footer {

@@ -163,7 +163,7 @@ body {
 
 .subHeading {
     width: 100%;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 
 .columnTwo {
@@ -178,6 +178,7 @@ body {
     flex-direction: column;
     gap: 1rem;
     position: relative;
+
 }
 
 .cardImage {
@@ -203,11 +204,12 @@ body {
 .do {
     position: absolute;
     aspect-ratio: 1/1;
+    background-color: #896686;
     width: 2rem;
-    bottom: 0.5rem;
-    right: 0.5rem;
-    object-fit: contain;
+    bottom: 1rem;
+    right: 1rem;
 }
+
 
 
 .footer {
