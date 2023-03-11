@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
 
 :root {
     --primary-clr: #896686;
@@ -164,6 +164,14 @@ body {
 
 /* Section Number with Desciption (End) */
 
+.colors {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+
 .subHeading {
     width: 100%;
     padding: 1rem 0;
@@ -173,20 +181,6 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    margin-bottom: 2rem;
-}
-
-.columnFour {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    margin-bottom: 2rem;
-}
-
-.columnSeven {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 0.5rem;
     margin-bottom: 2rem;
 }
 
@@ -212,32 +206,35 @@ body {
 
 /* General Color Card (End) */
 
-/* Primary Color */
+
+/* Primary Background Color */
 
 .color_box1 {
     background-color: var(--background-clr);
     border: 1px solid black;
 }
 
-.color_name {
+.color_bgname {
     position: absolute;
-    top: 0.5rem;
-    left: 1rem;
+    top: 0;
+    left: 0;
     font-size: 1.35rem;
     color: black;
 }
 
 .hex {
     position: absolute;
-    bottom: 2rem;
-    right: 1rem;
+    bottom: 1rem;
+    right: 0;
 }
 
 .RGB {
     position: absolute;
-    bottom: 0.5rem;
-    right: 1rem;
+    bottom: 0;
+    right: 0;
 }
+
+/* Primary Background Color (End) */
 
 .color_box2 {
     background-color: var(--primary-clr);
@@ -247,24 +244,117 @@ body {
     background-color: var(--primary-clr-2);
 }
 
-.white {
+.primary_half {
+    width: 85%;
+}
+
+.color_scheme h3 {
+    align-items: flex-start;
+}
+
+
+.color_scontainer {
+    width: 245px;
+    height: 145px;
+
+    margin-top: 1rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+
+.color_name {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    font-size: 1.35rem;
     color: white;
 }
 
-/* Primary Color (End) */
 
-/* Colour Palette */
 
-.paletteBox {
-    height: 6rem;
-    border-radius: 5px;
+
+.hex_w {
+    color: white;
+    position: absolute;
+    bottom: 2.5rem;
+    right: 1rem;
 }
 
-/* Colour Palette (End) */
+
+
+.RGB_w {
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.underline {
+    text-decoration: underline;
+
+}
+
+.color_text {
+    padding-top: 2.5rem;
+}
+
+.color_palette {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3rem;
+    width: 100vw;
+    padding-left: 9.75rem;
+
+}
+
+
+.row {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.color_boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.small-cl-box1 {
+    width: 135px;
+    aspect-ratio: 1/1;
+}
+
+.small-cl-box2 {
+    width: 4rem;
+    aspect-ratio: 1/1;
+    background-color: lightpink;
+
+}
+
+.small-cl-box3 {
+    width: 4rem;
+    aspect-ratio: 1/1;
+    background-color: plum;
+
+}
+
+.dividing_line {
+    width: 30%;
+    height: 4px;
+    background-color: black;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
 
 .footer {
-    margin: 2rem 0;
+    margin-top: 2rem;
     text-align: center;
-    font-weight: 300;
-    font-size: 10pt;
 }
