@@ -167,7 +167,7 @@ body{
 
 .row{
     display: flex;
-    gap:3.2rem;
+    gap:2rem;
     margin-bottom: 1rem;
     
 }
@@ -191,7 +191,7 @@ body{
 .font_section{
     display: flex;
     /* flex-wrap: wrap; */
-    margin-top: 3rem;
+    margin-top: 2rem;
     gap:2.5rem;
 }
 
