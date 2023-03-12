@@ -180,6 +180,7 @@ body {
     position: relative;
 }
 
+
 .cardImage {
     width: 100%;
     background-color: white;
@@ -190,6 +191,17 @@ body {
     border-radius: 5px;
 }
 
+.blackCard{
+    background-color: black;
+}
+
+.greyGradient{
+    background-color: linear-gradient(to right, black, red);
+}
+
+.checkerbg{
+    background-image: url(images/logo/checker-bg.png);
+}
 .description_text {
     font-size: 10pt;
 }
